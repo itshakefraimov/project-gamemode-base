@@ -1,0 +1,21 @@
+#define WHITE 										0xFFFFFFAA
+#define GREY 										0xAFAFAFAA
+#define RED 	  									0xFF0000AA
+#define LIGHTRED  									0xFF634700
+#define LIGHTBLUE 									0x33CCFFAA
+#define YELLOW 										0xFFFF00AA
+#define PURPLE 										0xC2A2DAAA
+#define ORANGE 										0xFFA900FF
+#define GREEN 										0x008000FF
+#define GREEN2 										0x09B300FF
+#define FADE1 										0xE6E6E6E6
+#define FADE2 										0xC8C8C8C8
+#define FADE3 										0xAAAAAAAA
+#define FADE4 										0x8C8C8C8C
+#define FADE5 										0x6E6E6E6E
+
+#define CHAT_WHITE 									"{FFFFFF}"
+#define CHAT_GREY 									"{AFAFAF}"
+#define CHAT_RED 									"{FF0000}"
+#define CHAT_YELLOW 								"{FFFF00}"
+#define CHAT_LIGHTBLUE 								"{33CCFF}"
