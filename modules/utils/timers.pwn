@@ -3,6 +3,6 @@ timer DelayedKick[500](playerid)
 
 timer LoginTimer[60000](playerid)
 {
-	if(get:PlayerFlags[playerid]<PLAYER_IS_LOGGED>)
+	if(!get:PlayerFlags[playerid]<PLAYER_IS_LOGGED>)
 		Kick(playerid);
 }	
