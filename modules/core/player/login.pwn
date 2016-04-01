@@ -7,8 +7,9 @@ hook OnPlayerConnect(playerid)
 {
 	TogglePlayerSpectating(playerid, true);
 	PlayerSQLState[playerid]++;
-	for(new E_PLAYER_DATA:e; e < E_PLAYER_DATA; ++e)
-		Player[playerid][e] = EOS;
+	new _resetEnum[E_PLAYER_DATA];
+	Player[playerid] = _resetEnum;
+
 	GetPlayerName(playerid, Player[playerid][Name], MAX_PLAYER_NAME);
 
 	new query[75];
