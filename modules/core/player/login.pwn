@@ -20,7 +20,8 @@ hook OnPlayerConnect(playerid)
 
 public OnPlayerDisconnect(playerid, reason)
 {
-	UpdatePlayerData(playerid);
+	if(get:PlayerFlags[playerid]<PLAYER_IS_LOGGED>)
+		UpdatePlayerData(playerid);
 	return 1;
 }
 
